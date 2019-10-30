@@ -1,3 +1,11 @@
+/*
+For startTag = "<button type='button' disabled>", the output should be
+htmlEndTagByStartTag(startTag) = "</button>";
+For startTag = "<i>", the output should be
+htmlEndTagByStartTag(startTag) = "</i>".
+
+*/
+
 function digitDistanceNumber(n) {
    12345
    var individualNumArray = n.toString().split('');
