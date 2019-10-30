@@ -1,8 +1,16 @@
 /*
-For startTag = "<button type='button' disabled>", the output should be
-htmlEndTagByStartTag(startTag) = "</button>";
-For startTag = "<i>", the output should be
-htmlEndTagByStartTag(startTag) = "</i>".
+For n = 2744, the output should be
+digitDistanceNumber(n) = 530.
+
+b1 = |a2 - a1| = |7 - 2| = 5
+b2 = |a3 - a2| = |4 - 7| = 3
+b3 = |a4 - a3| = |4 - 4| = 0
+For n = 330, the output should be
+digitDistanceNumber(n) = 3.
+
+For n = 333, the output should be
+digitDistanceNumber(n) = 0.
+
 
 */
 
