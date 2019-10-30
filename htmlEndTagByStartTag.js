@@ -1,3 +1,12 @@
+/*
+For startTag = "<button type='button' disabled>", the output should be
+htmlEndTagByStartTag(startTag) = "</button>";
+For startTag = "<i>", the output should be
+htmlEndTagByStartTag(startTag) = "</i>".
+
+
+*/
+
 function htmlEndTagByStartTag(startTag) {
     debugger;
     var possibleStart = startTag.split(' ')[0];
